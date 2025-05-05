@@ -16,6 +16,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: Poppins, sans-serif;
+    text-shadow: 0 0 75px rgb(11, 0, 165) !important;
 }
 
 
@@ -156,7 +157,7 @@ section {
     position: sticky;
     top: 0;
     padding: 1rem 0;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
 }
 
 .sticky-header h3 {
@@ -168,8 +169,8 @@ section {
     content: '';
     position: absolute;
     inset: 0;
-    background: #101A31;
-    opacity: 0.8;
+    background: var(--color-bcg);
+    opacity: 0.6;
 }
 
 /* --------------------   ABOUT   -------------------- */
@@ -330,6 +331,7 @@ footer .anchor-text {
         max-width: 85px;
         aspect-ratio: 1 / 1;
         border-radius: 50%;
+        box-shadow: 0 0 85px 1px rgb(0, 27, 87);
         overflow: hidden;
         grid-column: span 2 !important;
     }
@@ -424,7 +426,7 @@ footer .anchor-text {
     header nav a:hover {
         color: var(--color-white);
     }
-    
+
     .identity-container {
         max-width: 650px;
         grid-template-columns: repeat(6, minmax(0, 1fr));
