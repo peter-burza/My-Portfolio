@@ -9,7 +9,7 @@ export default function Main() {
             liveVersionLink: "https://peter-pokedex.netlify.app/",
             description: "Simple Pokemon wiki. You can search there for any pokemon you like, and get a lots of info about it!",
             usedTechnology: ["React"],
-            imgSrc: "/public/pokedex-project-ref.png",
+            imgSrc: "/pokedex-project-ref.png",
         },
         {
             id: "todoApp",
@@ -17,7 +17,7 @@ export default function Main() {
             liveVersionLink: "https://peter-todo-app.netlify.app/",
             description: "When you're doing multiple tasks at the same time, there's never a bad idea to note them and track their progression..",
             usedTechnology: ["React"],
-            imgSrc: "/public/todo-app-ref.png",
+            imgSrc: "/todo-app-ref.png",
         },
         {
             id: "snaqe",
@@ -25,7 +25,7 @@ export default function Main() {
             liveVersionLink: "https://snaqe.netlify.app/",
             description: "I love coding games, so as probably a lot of people, I decided to code an \"old classic\" - Snake Game. Working on this project was also a good way to practice javasript (OOP mostly).",
             usedTechnology: ["Javascript", "HTML", "CSS"],
-            imgSrc: "/public/snake-game-project-ref.png",
+            imgSrc: "/snake-game-project-ref.png",
         },
         {
             id: "counterPal",
@@ -33,7 +33,7 @@ export default function Main() {
             liveVersionLink: "https://peter-counterpal.netlify.app/",
             description: "For early practice, what can be easier than a counter app. <em>\"Our old friend CounterPal!\"</em> CounterPal was my 1st app where I used React.",
             usedTechnology: ["React"],
-            imgSrc: "/public/counterpal-ref.png",
+            imgSrc: "/counterpal-ref.png",
         },
         {
             id: "googleHomePageClone",
@@ -41,7 +41,7 @@ export default function Main() {
             liveVersionLink: "https://goopetergle.netlify.app/",
             description: "Project was meant to be as a practice of basic HTML & CSS front-end web tools.",
             usedTechnology: ["HTML", "CSS"],
-            imgSrc: "/public/google-project-ref.png",
+            imgSrc: "/google-project-ref.png",
         }
     ]
     const experienceData = [

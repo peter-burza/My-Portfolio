@@ -10,7 +10,7 @@ export default function Header() {
                     <h2>Front End Developer</h2>
                 </div>
                 <div className="identity-img-container">
-                    <img src="/public/profile-img.jpg" alt="profile-image" />
+                    <img src="/profile-img.jpg" alt="profile-image" />
                 </div>
             </div>
             <p>I build accessible, pixel-perfect digital experiences for the web.</p>
