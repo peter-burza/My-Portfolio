@@ -31,7 +31,13 @@ export default function Main() {
             id: "counterPal",
             title: "CounterPal",
             liveVersionLink: "https://peter-counterpal.netlify.app/",
-            description: "For early practice, what can be easier than a counter app. <em>\"Our old friend CounterPal!\"</em> CounterPal was my 1st app where I used React.",
+            description: ( // Used this synta because of the <em> tag (it's for make the inside text italic)
+                <>
+                    For early practice, what can be easier than a counter app.{" "}
+                    <em>"Our old friend CounterPal!"</em>{" "}
+                    CounterPal was my 1st app where I used React.
+                </>
+            ),
             usedTechnology: ["React"],
             imgSrc: "/counterpal-ref.png",
         },
