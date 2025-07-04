@@ -4,6 +4,14 @@ import ExperienceCard from "./ExperienceCard"
 export default function Main() {
     const projectData = [
         {
+            id: "movieMatch",
+            title: "Movie Match",
+            liveVersionLink: "https://peter-movie-match.netlify.app/",
+            description: "You want to check some movies including some details? Check the Movie Match searcher.",
+            usedTechnology: ["React"],
+            imgSrc: "/movie-match-title.png",
+        },
+        {
             id: "pokedex",
             title: "Pokedéx",
             liveVersionLink: "https://peter-pokedex.netlify.app/",
