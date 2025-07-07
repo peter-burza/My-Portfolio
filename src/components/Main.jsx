@@ -10,6 +10,7 @@ export default function Main() {
             description: "You want to check some movies including some details? Check the Movie Match searcher.",
             usedTechnology: ["React"],
             imgSrc: "/movie-match-title.png",
+            imgAlt: "Movie Match img reference"
         },
         {
             id: "pokedex",
@@ -18,6 +19,7 @@ export default function Main() {
             description: "Simple Pokemon wiki. You can search there for any pokemon you like, and get a lots of info about it!",
             usedTechnology: ["React"],
             imgSrc: "/pokedex-project-ref.png",
+            imgAlt: "Pokedex img reference"
         },
         {
             id: "todoApp",
@@ -26,6 +28,7 @@ export default function Main() {
             description: "When you're doing multiple tasks at the same time, there's never a bad idea to note them and track their progression..",
             usedTechnology: ["React"],
             imgSrc: "/todo-app-ref.png",
+            imgAlt: "Todo App img reference"
         },
         {
             id: "snaqe",
@@ -34,6 +37,7 @@ export default function Main() {
             description: "I love coding games, so as probably a lot of people, I decided to code an \"old classic\" - Snake Game. Working on this project was also a good way to practice javasript (OOP mostly).",
             usedTechnology: ["Javascript", "HTML", "CSS"],
             imgSrc: "/snake-game-project-ref.png",
+            imgAlt: "SNAQE img reference"
         },
         {
             id: "counterPal",
@@ -48,6 +52,7 @@ export default function Main() {
             ),
             usedTechnology: ["React"],
             imgSrc: "/counterpal-ref.png",
+            imgAlt: "CounterPal img reference"
         },
         {
             id: "googleHomePageClone",
@@ -56,6 +61,7 @@ export default function Main() {
             description: "Project was meant to be as a practice of basic HTML & CSS front-end web tools.",
             usedTechnology: ["HTML", "CSS"],
             imgSrc: "/google-project-ref.png",
+            imgAlt: "Google Home Page img reference"
         }
     ]
     const experienceData = [
