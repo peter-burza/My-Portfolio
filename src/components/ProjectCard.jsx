@@ -22,7 +22,7 @@ export default function ProjectCard(props) {
 				</div>
 			</div>
 			<div className="img-container">
-				<img src={project.imgSrc} alt="{project.imgAlt}" />
+				<img src={project.imgSrc} alt={project.imgAlt} />
 			</div>
 		</div>
 	)
