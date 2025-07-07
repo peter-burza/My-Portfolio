@@ -4,6 +4,15 @@ import ExperienceCard from "./ExperienceCard"
 export default function Main() {
     const projectData = [
         {
+            id: "caffiend",
+            title: "Caffiend",
+            liveVersionLink: "https://peter-caffiend.netlify.app/",
+            description: "If you're a one of us (the Coffie Drinker!) this web app is made with love just for you. You can track you're caffeine consumption.",
+            usedTechnology: ["React", "Firebase"],
+            imgSrc: "/caffiend-ref-img.png",
+            imgAlt: "Caffiend title img reference"
+        },
+        {
             id: "movieMatch",
             title: "Movie Match",
             liveVersionLink: "https://peter-movie-match.netlify.app/",
