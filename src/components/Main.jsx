@@ -4,12 +4,21 @@ import ExperienceCard from "./ExperienceCard"
 export default function Main() {
     const projectData = [
         {
+            id: "harmonyToMastery",
+            title: "Harmony to Mastery",
+            liveVersionLink: "https://peter-harmony-to-mastery.netlify.app/",
+            description: "This page has been created for reference purposes only. You can take a look at my TailwindCSS practice ;)",
+            usedTechnology: ["HTML", "TailwindCSS"],
+            imgSrc: "/harmony-to-mastery-ref.png",
+            imgAlt: "Harmony to Mastery title img reference"
+        },
+        {
             id: "caffiend",
             title: "Caffiend",
             liveVersionLink: "https://peter-caffiend.netlify.app/",
             description: "If you're a one of us (the Coffie Drinker!) this web app is made with love just for you. You can track you're caffeine consumption.",
             usedTechnology: ["React", "Firebase"],
-            imgSrc: "/caffiend-ref-img.png",
+            imgSrc: "/caffiend-ref.png",
             imgAlt: "Caffiend title img reference"
         },
         {
@@ -18,7 +27,7 @@ export default function Main() {
             liveVersionLink: "https://peter-movie-match.netlify.app/",
             description: "You want to check some movies including some details? Check the Movie Match searcher.",
             usedTechnology: ["React"],
-            imgSrc: "/movie-match-title.png",
+            imgSrc: "/movie-match-ref.png",
             imgAlt: "Movie Match img reference"
         },
         {
@@ -27,7 +36,7 @@ export default function Main() {
             liveVersionLink: "https://peter-pokedex.netlify.app/",
             description: "Simple Pokemon wiki. You can search there for any pokemon you like, and get a lots of info about it!",
             usedTechnology: ["React"],
-            imgSrc: "/pokedex-project-ref.png",
+            imgSrc: "/pokedex-ref.png",
             imgAlt: "Pokedex img reference"
         },
         {
@@ -45,7 +54,7 @@ export default function Main() {
             liveVersionLink: "https://snaqe.netlify.app/",
             description: "I love coding games, so as probably a lot of people, I decided to code an \"old classic\" - Snake Game. Working on this project was also a good way to practice javasript (OOP mostly).",
             usedTechnology: ["Javascript", "HTML", "CSS"],
-            imgSrc: "/snake-game-project-ref.png",
+            imgSrc: "/snaqe-ref.png",
             imgAlt: "SNAQE img reference"
         },
         {
@@ -69,7 +78,7 @@ export default function Main() {
             liveVersionLink: "https://goopetergle.netlify.app/",
             description: "Project was meant to be as a practice of basic HTML & CSS front-end web tools.",
             usedTechnology: ["HTML", "CSS"],
-            imgSrc: "/google-project-ref.png",
+            imgSrc: "/google-ref.png",
             imgAlt: "Google Home Page img reference"
         }
     ]
