@@ -13,7 +13,7 @@ export default function Header() {
                     <img src="/profile-img.jpg" alt="profile-image" />
                 </div>
             </div>
-            <p>I build accessible, pixel-perfect digital experiences for the web.</p>
+            <p>Responsive, reliable, and ready to scale — just like me.</p>
             <nav>
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>

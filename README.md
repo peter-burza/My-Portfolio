@@ -6,8 +6,8 @@ You can read about mine:
 
 ### Check out [My portfolio](https://peterburzaportfolio.netlify.app/)
 
-*Resumé & Full Project History - comming soon...*
+*Full Project History - comming soon...*
 
 #### Used React
 
-###### Last update: 07-07-2025
+###### Last update: 04-08-2025
